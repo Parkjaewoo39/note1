@@ -1,0 +1,446 @@
+오전 9:06 2022-12-2
+모험가 이야기 모바일 게임
+
+분석
+
+
+
+========
+switch 숫자도 처리 가능 문자도 처리가능++
+블로그
+부동소수점 에러
+앱실론
+===========
+
+과제
+LAB문제1~3의 모든 라인에서 각 라인이 어떤 역할을 하는지 주석으로 설명해서 제출할것.
+(형태는zip파일, *gitignore참고*용량 잘 보고 올릴것.)
+파일명:과제_이름_날짜.zip
+
+Read.me파일로 명시꿀팁
+
+===========
+
+
+
+문제.
+프로그램 사용자로부터 양의 정수를 하나 입력 받아서, 그 수만큼 "Hello World"를 출력하는 프로그램 작성
+ex) input ->3
+
+	"Hello World"
+	"Hello World"
+	"Hello World"
+
+문제 2
+프로그램 사용자로부터 양의 정수를 하나 입력 받은 다음, 그 수만큼 3의 배수를 프로그램.
+ex)
+	input -5
+	"3,6,9,12,15"
+
+문제3
+프로그램 사용자로부터 계속해서 정수를 입력 받는다. 그리고 그 값을 계속 해서 더해 나간다.
+이러한 작업은 프로그램 사용자가 0을 입력할 때 까지 계속되어야 하며, 0이 입력되면 입력된 모든 정수의 합을 출력하고 프로그램 종료
+ex)
+	input->
+
+문제4
+프로그램 사용자로부터 입력받은 숫자에 해당하는 구구단을 출력하되, 역순으로 출력하는 프로그램작성.
+ex)
+	input-> 2
+		"18,16,14,12,..."
+
+문제5
+프로그램 사용자로부터 입력받은 정수의 평균을 출력하는 프로그램을 작성 하되, 다음 두 가지의 조건을 만족할것.
+-먼저 몇개의 정수를 입력할 것인지 프로그램 사용자에게 묻는다.
+-그 수만큼 정수를 입력 받는다.
+-그리고 평균값은 소수점 이하까지 계산해서 출력한다.
+ex)
+	input-루프 카운터 ->3
+	int input ->10
+	int input ->10
+	int input ->10
+평균값. 10.0"
+
+문제6
+두 실수를 입력 받아서 값이 같으닞 다른지 출력하는 프로그램 작성.
+
+문제7
+1~100숫자 중에 3의 배수를 제외한 수의 합 구하기.
+
+===================================
+lab문제 1
+자음과 모음 개수 세기
+사용자로 부터 영문자를 받아서 자음과 모음의 개수를 세는 프로그램을 작성
+ -(대,소문자 모두 카운트)
+	 ex)
+		a
+		b
+		c
+		d
+		e
+		z
+		#종류문자 
+		모음은:2개
+		자음은: 3개
+
+lab문제 2
+숫자 맞추기 게임
+숫자 알아 맞히기 게임이다. 프로그램은 1~100사이의 정수를 저장하고 있음.사용자는 질문을 통해서
+숫자를 알아 맞힌다. 사용자가 답을 제시하면 프로그램은 제시된 정수가 더 낮은 값인지, 높은 값인지
+알려준다. 사용자가 알아맞힐 때까지 루프한다.(기본형)
+
+
+
+-프로그램을 수정하여 컴퓨터가 생성한 숫자를 사용자가 추측하는 대신에, 사용자가 결정한 번호를
+컴퓨터가 추측 하도록 수정한다. 사용자는 컴퓨터가 추측한 숫자가 높거나 낮은지를 컴퓨터에 알려야 한다.
+컴퓨터가 맞힐때까지 반복(어려움1)
+
+-사용자가 결정한 값의 범위는 (1~100) 어떤 숫자를 생각하던 간에 7번 이하의 추측으로 컴퓨터가 맞출 수 있도록
+어려운거 1을 수정하시오.
+
+lab문제3
+산수 문제를 자동으로 출제하는 프로그램을 작성해보자. 덧셈 문제들을 자동으로 생성하여야 한다.
+피연산자는 0~99사이의 숫자 (난수) 한 번이라도 맞으면 종료. 틀리면 리트라이. (기본형)
+
+-뺄셈,곱셈,나눗셈 문제도 출제(추가문제)
+	->나눗셈 예외처리(무한대 값 주의)
+
+1~100 숫자 중에서 3의 배수이면서 4의 배수인 정수 합 구하기.
+
+
+두개의 정수를 입력 받아서 두 수의 차를 출력하는 프로그램 작성.
+-항상 큰 수에서 작은 수를 뺀 결과를 출력하고 결과는 언제나 0 이상이어야 함.
+
+
+구구단을 출력하되 짝수(2단, 4단, 6단, 8단)만 출력 되도록 하는 프로그램을 작성.
+-2다은 2x2까지만,4단은 4x4 까지만,6단은 6x6까지, 8단은 8x8까지.
+출력.
+break와 continue를 사용할것.
+
+
+다음 식을 만족하는 모든A와Z를 구하는 프로그램을 작성.
+	A Z 
+       +   Z A
+--------------
+	99
+
+*******************************
+===========================
+===========================
+===================
+ Console.Write("정수 1, 2, 3, 중에 하나를 입력 하시오.: ");
+            int switchNumber = 0;
+            int.TryParse(Console.ReadLine(), out switchNumber);
+
+            switch (switchNumber)
+            {
+                case 1:
+                    Console.WriteLine("1을(를) 입력했습니다. ");
+                    goto case 3;//goto는 다른 case로 점프할때 쓰고 잘 안쓴다. 로직에 문제가 있다.
+                                //break;
+                case 2:
+                    Console.WriteLine("2을(를) 입력했습니다.");
+                    break;
+                case 3:
+                    Console.WriteLine("3을(를) 입력 했습니다");
+                    break;
+
+                default:
+                    Console.WriteLine("처리하지 않은 예외 입력했습니다.");
+                    break;
+                    //switch
+
+
+                    /**
+                     * 중간점검
+                     * 1. case 절에서 break 문을 생략하면 어떻게 되는가?
+                     * case 절에 break를 빼도 에러는 나지 않는다.
+                     */
+                    switch 예제
+             Console.WriteLine("가장 좋아하는 프로그림 언어는? ");
+                    Console.Write("1. C\t");
+                    Console.Write("2. C++\t");
+                    Console.Write("3. C#\t");
+                    Console.Write("4. Java\t");
+
+                    int choice = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choice)
+                    {
+                        case 1:
+                            Console.WriteLine("C선택 ");
+                            break;
+                        case 2:
+                            Console.WriteLine("C++선택 ");
+                            break;
+                        case 3:
+                            Console.WriteLine("C#선택 ");
+                            break;
+                        default:
+                            Console.WriteLine("Java선택 ");
+                            break;
+
+                    }
+
+                    // switch 예제
+
+                    Console.WriteLine("오늘의 날씨는 어떤가요? (맑음,흐림, 비, 눈, ...)");
+                    string weather = Console.ReadLine();
+                    //문자 처리도 가능한 예제
+                    switch (weather)
+                    {
+                        case "맑음":
+                            Console.WriteLine("오늘 날씨는 맑군요.");
+                            break;
+                        case "흐림":
+                            Console.WriteLine("오늘 날씨는 흐리군요.");
+                            break;
+                        case "비":
+                            Console.WriteLine("오늘 날씨는 비가 오는군요.");
+                            break;
+                        default:
+                            Console.WriteLine("혹시 눈이 내리나요?.");
+                            break;
+
+                            //
+
+                    }
+                    /**
+                     * while 문은 조건식이 참일 동안 문장을 반복 실행한다.
+                     * 5번 실행
+                     */
+                    int loopCounter = 0;
+                    while (loopCounter < 5) // < 오른쪽 숫자
+                    {
+                        Console.WriteLine("반복문이 정말로 5번만 실행되나?");
+                        loopCounter++;
+                        //5번 돌게
+                    }
+
+                    //10~1 카운트 후 발사 출력하는 프로그램 작성
+                    loopCounter = 0;
+                    while (loopCounter < 10 + 1)
+                    {
+                        Console.WriteLine("{0}", loopCounter);
+                        loopCounter += 1;
+                    }
+                    Console.WriteLine("발사");
+
+
+                    예제 구구단 출력하는 프로그램 작성.User input 받아서 해당 단을 출력
+            int userGugudan = 0;
+                    Console.WriteLine("구구단중에서 출력하고 싶은 단 입력");
+                    int.TryParse(Console.ReadLine(), out userGugudan);
+
+                    const int GUGU_DAN = 9;
+                    int gugudanloopCount = 1;
+                    while (gugudanloopCount <= GUGU_DAN)
+                    {
+                        Console.WriteLine("{0}*{1}={2} ", userGugudan, gugudanloopCount, userGugudan * gugudanloopCount);
+                        gugudanloopCount++;
+                    }
+
+                    int helloCount = 0;
+
+                    Console.WriteLine("숫자를 입력 하시오");
+                    int.TryParse(Console.ReadLine(), out helloCount);
+
+
+                    while (helloCount > 0)
+                    {
+                        Console.WriteLine("Hello World");
+                        helloCount--;
+                    }
+                    ////
+                    ///
+
+                    Console.Write("양의정수하나를 입력하시오: ");
+                    int userInput = Convert.ToInt32(Console.ReadLine());
+
+                    const int THREE_BAE = 3;
+
+                    int loopcount = 1;
+
+                    while (userInput > 0)
+                    {
+                        Console.Write("{0} ", THREE_BAE * loopcount);
+                        userInput--;
+                        loopcount++;
+                    }
+
+                    Console.WriteLine();
+
+                    int loopCountadd = 0;//0으로 초기화를 시키고, 
+
+                    Console.WriteLine("정수를 입력 하시오(0입력시 합산): ");
+                    int againInput1 = Convert.ToInt32(Console.ReadLine());
+
+
+                    ////////
+                    loopCountadd += againInput1;
+
+                    while (againInput1 > 0)
+                    {
+                        Console.Write("정수를 입력 하시오(0입력시 합산): ");
+                        int againInput2 = Convert.ToInt32(Console.ReadLine());
+
+                        loopCountadd += againInput2;
+                        againInput1 = againInput2;
+
+                    }
+
+                    Console.WriteLine("정수의 합은 {0} ", loopCountadd);
+                    Console.WriteLine();
+
+                    /***************************************
+                    //구구단 역순*/
+
+                    Console.Write("구구단 단을 입력하시오.: ");
+                    int gugudan = Convert.ToInt32(Console.ReadLine());
+
+                    int loopCount_ = 9;
+                    while (loopCount_ > 0)
+                    {
+                        Console.Write("{0} ", gugudan * loopCount_);
+                        loopCount_--;
+
+                    }
+
+                    Console.WriteLine();
+
+                    /// 문제5
+                    int loopRule = 0;
+                    int loopRuleAdd = 0;
+
+
+                    Console.Write("입력할 정수의 개수를 정하시오.:  ");
+                    int ruleCount = Convert.ToInt32(Console.ReadLine());
+
+
+                    Console.WriteLine("{0} 반복함. ", ruleCount);
+
+
+
+
+                    while (loopRule > 0)
+                    {
+                        Console.Write("정수를 입력 하시오.: ");
+                        int ruleCount2 = Convert.ToInt32(Console.ReadLine());
+
+
+                    }
+                    Console.WriteLine("평균은 {0} 이다.", );
+
+
+
+
+
+
+            / 3
+            //
+            /
+
+            int loopInput = 0;
+                    Console.WriteLine("정수를 입력하시오.");
+                    int.TryParse(Console.ReadLine(), out loopInput);
+                    //출력문 정수 입력. 
+                    const int  =
+            while (loopInput > 0) ;
+                    {
+
+                        Console.WriteLine("정수를 입력하시오.", loopInput +);
+                        loopInput = 0;
+                    }
+
+                    const float FLOAT_VALUE = 0.1f;
+                    int loopCount = 10;
+                    float sumOfFloatValue = 0.0f;
+
+                    while (0 < loopCount)
+                    {
+                        loopCount--;
+                        sumOfFloatValue += FLOAT_VALUE;
+                        Console.Write("무슨값이 나오나 {0} ", sumOfFloatValue);
+                    }
+                    Console.Write("비교할  첫 실수를 입력 하시오.: ");
+                    float floatNumber = Convert.ToInt32(Console.ReadLine());
+                    float flotNumber = 0.0f;
+                    float floatNumber2 = 0.0f;
+
+                    Console.Write("비교할 두번째 실수를 입력 하시오.: ");
+                    float floatNumber2 = Convert.ToInt32(Console.ReadLine());
+
+
+
+                    if (floatNumber > floatNumber2)
+                    {
+                        Console.WriteLine("다름");
+                    }
+                    else if (floatNumber < floatNumber2)
+                    {
+                        Console.WriteLine("다름");
+                    }
+                    else
+                    {
+                        Console.WriteLine("같음");
+                    }
+                    /**
+                     * for 문은 일정한 횟수만큼 반복할 때 유용하다.
+                     * 초기식을 실행한 후에 조건식이 참인 동안, 문장을 반복한다. 한번 반복이 끝날 때마다 증감식이
+                     * 실행된다.
+                     */
+
+                    1~10까지 정수의 합
+            int sumNumber = 0;
+
+                    for (int index = 1; index < 10; index++)
+                    {/////1번           2번           4번
+                        ///             5번           7번
+                        sumNumber += index;
+                        ////////3번 6번
+                        Console.WriteLine($"1부터 10까지의 정수의 합= {sumNumber}");
+                        Console.WriteLine("1부터 10까지의 정수의 합= {0} ", sumNumber);
+                    }
+                    int noThree = 0;
+
+                    for (int index = 1; index <= 100; index++)
+                    {
+
+                        if (index % 3 == 0) {/*여긴 비워두는 칸이다 라고 명시*/ }
+                        else
+                        {
+                            noThree += index;
+                        }
+                        Console.WriteLine(noThree);
+                    }
+                    /**
+                     * break 문
+                     * break 문은 반복 루프를 벗어나기 위해서 사용한다. break 문이 실행되면 반복 루프는 즉시 중단되고
+                     * 반복 루프 다음에 있는 문장이 실행된다.
+                     * 
+                     * continue문
+                     * continue 문은 현재 수행하고 있는 반복 과정의 나머지를 건너뛰고 다음 반복 과정을 강제적으로
+                     * 싲가하게 만든다. 반복 루프에서 continue 문은 만나게 되면 continue 문 다음에 있는 후속 코드들은
+                     * 실행되지 않고 건너뛰게 된다.
+                     * 
+                     */
+                    int noThree = 0;
+
+                    for (int index = 1; index <= 100; index++)
+                    {
+
+                        if (index % 3 == 0) { continue; }
+                        else
+                        {
+                            noThree += index;
+                        }
+                        Console.WriteLine(noThree); 모음
+                    }
+                    for (int index = 1; index <= 10; index++)
+                    {
+                        if (index == 4) { break; }//10회 실행중 브레이크를 준 값에서 나간다.
+                        Console.WriteLine("현재 인덱스: {0}", index);
+
+                    }
+
+
