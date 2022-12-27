@@ -1,0 +1,135 @@
+오전 9:34 2022-12-27
+
+
+과제 
+
+슬라이딩 퍼즐 프로그램 작성하기.
+'
+
+
+
+어제처럼 3x3 판을 만들고 그판이 -1
+
+
+-1을 스위치로 -1을 1~9난수로 바꾸고싶은데
+
+1~9배열 
+
+
+
+
+
+
+
+함수에 익숙하기 위한 예제
+-3개의 정수 중에서 최대값을 찾는 함수 Maximum(x,y,z)를 정의 할것.
+
+-화면에 "Hello"를 출력하는 SayHello()함수를 작성.
+	int 타입 매개 변수 받아서 그 횟수만큼 Hello를 반복해서 출력.
+
+-다른 두 변이 주어 졌을 때 지각 삼각형의 빗변을 계산하는 함수.
+Hypot()를 정의할것.
+	매개변수는 2개 타입은 double
+	리턴 타입도 double 형
+
+-주어진 숫자가 소수인지 여부를 찾는 함수 Prime()을 작성.
+	-판별할 값의 범위는 2~100사이의 값중에서
+	소수는 모두 출력.
+
+-사용자가 입력하는 전화번호에서 소괄호를 삭제한 형태로 출력하는
+프로그램을 작성.(함수사용)
+	전화번호를 입력 받는다 -> 소괄호를 삭제한 형태로 출력한다.
+	quit입력하면 프로그램을 종료한다.
+	프로그램 종료 전까지 전화번호를 입력받는다.
+(010) -4544 -5454
+
+-문자 좌우 뒤집어서 출력하기
+
+
+
+
+-두 수의 합을 구하는 함수를 작성하기
+-함수를 사용하여 큰 값과, 작은 값, 절댓값 구하기
+
+
+
+
+=====================================
+
+게임개발에서
+
+재귀함수로만 가능한 알고리즘은 없고
+재귀함수는 연산이 무거워서 개발시 잘 안씀
+
+재귀함수를 쓸때는 차라리 반복문으로 하는게 좋아보임.
+
+
+
+static void BoGang2()
+        {
+            //bool isTrue;    //박스에 이게 맞냐 아니냐만 담김
+           
+            //Console.WriteLine("나이를 입력하세요");
+
+            ////int age;
+
+            ////isTrue  = int.TryParse(Console.ReadLine(), out age);
+
+            //////age = age + 1;
+
+            ////Console.WriteLine("제대로 담겼나요? : " + isTrue);
+            ////input이 13이길 바랬지만 사실"13"이라는 글자문자로받음.
+
+            //float age;
+
+            //float.TryParse(Console.ReadLine(), out age);
+
+            //Console.WriteLine();
+
+            ////두 실수를 유저로부터 입력받고, float형 변수에 저장하자.
+            ////둘의 합 출력
+
+            //float A = 0.0f;
+            //float B = 0.0f;
+
+            //Console.WriteLine("합산할 첫번째 실수를 입력하시오: ");
+            //float.TryParse((Console.ReadLine()), out A);
+
+            //Console.WriteLine("합산할 두번째 실수를 입력하시오: ");
+            //float.TryParse((Console.ReadLine()), out B);
+
+            //float addAB = A + B;
+
+            //Console.WriteLine("두 실수의 합은 {0} ", addAB);
+
+            //Console.Clear();
+            ///**
+            // * if(여기 조건문이 참일때 )
+            // * {
+            // *      참일때 여기 내용을 실행
+            // * }
+            // */
+
+            //int whatTheTrue;
+            //whatTheTrue = 100;
+
+            //bool isBigger;
+
+            //isBigger = whatTheTrue > 50;
+
+            //if (isBigger == true) 
+            //{
+            //    Console.WriteLine("50보다 큽니다.");
+            //}
+
+            //Console.WriteLine("판단할 수를 입력해주세요");
+
+            //int whatNumber;
+
+            //int.TryParse(Console.ReadLine(), out whatNumber);
+
+            //if (whatNumber > 50) 
+            //{
+            //    Console.WriteLine("50보다 큽니다.");
+            //}
+
