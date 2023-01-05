@@ -1,0 +1,108 @@
+오전 8:54 2023-01-05
+
+1~2교시 - 깃허브 사용법2(Merge 와 Conflict)
+3~4교시 - 자습
+점심
+5교시 - 쪽지 시험
+6~8교시 - 1주일간 제작할 텍스트 RPG 기획서 작성
+	  (ppt->pdf(제출))
+https://ansohxxn.github.io/c%20sharp/ch7/
+=================================
+GitHub
+
+리포지토리 안에서 가지치기(branch)
+각 가지마다 새로운 기능을 개발할때 사용한다.
+
+- git branch 브랜치 확인
+
+-gir branch -r 원격에 머가 있냐
+
+-git checkout 이동하라-b가 없으면 그냥 이동
+
+-git checkout -b [] -b생성하면서 이동, []로 이동하는겨
+main에 직접 merge하는건 엄청나게 위험하다.
+-git branch --set-upstream-to=origin/브랜츠올릴거이름
+ 업스트림과 다운스트림 일치 시키기
+
+-git tag
+
+-git tag v0.0.1(메이저.마이너.뭐시기)버전
+
+-git push origin v0.0.1
+
+Merge & Conflict
+
+저장소 이름:Test3
+원격 저장소에 존재하는 브랜치:main, Develop
+
+오늘 git의 순서
+
+1.main branch와 main을 clone으로 만듬.
+
+2.main branch를 clone 
+
+1.clone하면 원격main에 연결 됨
+
+2.git branch로 로컬 브랜치 확인
+	로컬 지우는것 git branch -D 이름
+
+3.git branch -r 로 원격의 브랜치도 확인
+	원격 지우는것 git push origin --delete 이름
+
+4.git checkout -b 이름
+	-b 이름 : 이 이름으로 브랜치를 만든다.
+
+5.git checkout 이름
+	현재git bash에서 이름git bash 바뀜(상위폴더에서 작업)
+
+6git fetch -p
+	바뀐 상황을 받아만 옴(push pull을 하지 않으면 영향이 가지않음)
+	작업 시작전 항상 fetch -p로 받아옴
+
+7.git log --all --graph
+빠져나오는거 q
+
+
+merge 순서
+
+항상 아래에서 위로 해야한다. 무조건 아래에서 위로 해야한다.
+
+
+알파베타감마 다 합친후 
+git tag v0.0.1
+git push tagv0.0.1
+
+
+
+==================================
+
+	Text Rpg
+	reference : 
+
+==================================
+
+1.뭘만들지.(컨셉 구현 범위)
+2. 시스템, 동작(기능), Flow
+3. 예외사항
+4.UI형태?
+
+레퍼런스대로 할지
+텍스트 알피지 
+
+구현 해야할것
+(메인, 캐릭터, 인터페이스, 전투, 이벤트, 출력문,엔딩)
+주사위 0 이면 무기 방어구 내 스탯 10
+힘 2 당 딜 1  ||주사위 10 평균(내 무기 방어구 힘스탯/2 을 받음) = 딜이 +1
+0 = 1/10
+
+이벤트 15번 통과 후 끝 count
+유물 보스 이벤트 3번이 있고 이거를 통과못하면 유 다이
+
+총 7일
+1일차:
+2일차:
+3일차:
+4일차:
+5일차:
+6일차:
+7일차:'
