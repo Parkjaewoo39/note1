@@ -1,0 +1,50 @@
+유니티     
+bool true, false 를 사용자가 정의할수있지만     
+트리거타입은     
+특정값을 할당 할수 없고     
+set하는순간 true가 되고 그 뒤 바로 false가 되는 방식으로 구현이되어있다.      
+
+Has Exit Time 한번 재생 후 끝다는 의미      
+-종료 시점을 활성화 하는 옵션     
+종료시점 값은 exit time 필드에서 변경가능.     
+--켜두면 모션중엔 다른모션으로 스킵하고 넘어가지않음.      
+
+Transition Duration(전환 지속 시간)      
+현재 애니와 다음애니 클립을 섞어(블렌딩)부드럽게 이어주는 시간을 결정.     
+
+2d는 관절이 없고 이미지기엔 0값을 주어 이미지가 바로 움직이게 해야한다.?     
+
+
+Assert     
+강제로 에러를 내는데 해당 조건이 만족되지않으면 (false일때) 에러난다.     
+(조건중 하나라도 없으면 false      
+
+
+file> build > development bulid 체크하면 개발할때 쓰임.     
+
+복사 붙여넣기의 장점-> 변수이름과 함수 이름 그리고 파라미터 이름을 잘못 써서 발생하는 실수를 줄일 수 있다.      
+복사 붙여넣기의 단점-> 익숙하지 않은 메서드나 기능들을 외울 때, 특히 기억이 잘 안남.     
+
+Debug.Log ()      
+랩핑 - 기존 클래스를 쓸수 있게 감싼다?.     
+재포장한다는 의미.    
+어떤한 결과가 나오게 한걸 지우지않고 실행시      
+ 
+템플릿     
+<T> 제네릭(C#)  default    
+
+scripting define symbols	?    
+
+C#유니티 as  (부모에 뭐가 있다면)	?    
+
+sprite    
+allow rotation - sprite를 rotation해서 이어붙여서 보여      
+공간적으로 여백이 생길수도잇음.    
+tight packing - 이미지끼리 잘라서 붙여서 여백이 남을수있음.    
+
+하이어라이키     
+2d에서는 정렬순서에 따라 순서대로 보여줌. 가장큰건 첨에 그리는게 좋겠지?    
+
+spriteatlases에서 fiter mode point bilinear tri     
+
+unity lifecycle    
