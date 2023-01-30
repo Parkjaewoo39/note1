@@ -47,4 +47,25 @@ tight packing - 이미지끼리 잘라서 붙여서 여백이 남을수있음.
 
 spriteatlases에서 fiter mode point bilinear tri     
 
-unity lifecycle    
+unity lifecycle      
+
+update에서 감지하고 if문으로 흘러가게    
+
+캐싱 - 메모리에 띄워서 저장하는 거를 말함.    
+
+update 부분은 실행동안 while한다.    
+
+canvas scaler 에서    
+ui scale mode에서 constant pixel 로하면 모든 화면 비율마다 만들어줘야함.     
+
+싱글톤     
+https://tecoble.techcourse.co.kr/post/2020-11-07-singleton/     
+게임 매니저 오브젝트는 단 하나만 존재    
+어떤 곳에서도 손쉽게 게임 매니저 오브젝트에 접근 가능    
+static 특징을 알아야하고 static변수를 사용    
+
+device simulator    
+unity - window - generic -    
+
+
+
